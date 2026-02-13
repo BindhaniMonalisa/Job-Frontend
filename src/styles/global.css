@@ -156,6 +156,50 @@ html {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
 }
 
+/* Mobile Menu Fixes */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    margin-top: 1rem;
+    border: 1px solid #e2e8f0;
+    z-index: 1050;
+    position: relative;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.8rem 0;
+    border-bottom: 1px solid #f1f5f9;
+  }
+
+  .navbar-nav .nav-item:last-child .nav-link {
+    border-bottom: none;
+  }
+}
+
+/* Toggler Styling */
+.navbar-toggler {
+  border: 2px solid #475569 !important;
+  border-radius: 10px !important;
+  padding: 0.4rem 0.6rem !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+.navbar-toggler:hover {
+  background-color: #f8fafc;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0 3px rgba(71, 85, 105, 0.1) !important;
+}
+
+.navbar-toggler-icon {
+  width: 1.4rem !important;
+  height: 1.4rem !important;
+}
+
 /* Base style for rounded modern buttons */
 .btn-neon {
   background-color: #2563eb;
