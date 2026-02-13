@@ -1,0 +1,148 @@
+// data/jobs.js
+export const jobs = [
+  {
+    id: "1",
+    title: "Senior Frontend Developer",
+    description:
+      "We are looking for an experienced Frontend Developer to join our dynamic team.",
+    requirements:
+      "5+ years of experience with React.js\nStrong proficiency in JavaScript, HTML, CSS",
+    location: "New York, NY",
+    salary: "$120,000 - $150,000",
+    type: "Full-time",
+    createdDate: "2023-10-15T00:00:00.000Z",
+    lastDate: "2026-02-21T23:59:59.000Z",
+    status: "active",
+  },
+  {
+    id: "2",
+    title: "Backend Node.js Developer",
+    description:
+      "Join our backend team to develop scalable server-side applications.",
+    requirements: "3+ years of Node.js experience",
+    location: "Remote",
+    salary: "$100,000 - $130,000",
+    type: "Remote",
+    createdDate: "2023-10-20T00:00:00.000Z",
+    lastDate: "2025-12-15T23:59:59.000Z",
+    status: "active",
+  },
+  {
+    "id": "3",
+    "title": "UI/UX Designer",
+    "description": "Seeking a creative UI/UX Designer to craft user-friendly interfaces for web and mobile applications.",
+    "requirements": "4+ years of experience in UI/UX design\nProficiency with Figma, Adobe XD, and user research tools",
+    "location": "San Francisco, CA",
+    "salary": "$90,000 - $120,000",
+    "type": "Full-time",
+    "createdDate": "2024-02-10T00:00:00.000Z",
+    "lastDate": "2025-12-20T23:59:59.000Z",
+    "status": "active",
+    "reminderSent": false
+  },
+  {
+    "id": "4",
+    "title": "Data Analyst",
+    "description": "Analyze large datasets to help business teams make data-driven decisions.",
+    "requirements": "3+ years of experience in data analysis\nStrong knowledge of SQL, Python, and Power BI/Tableau",
+    "location": "Austin, TX",
+    "salary": "$80,000 - $100,000",
+    "type": "Full-time",
+    "createdDate": "2024-05-05T00:00:00.000Z",
+    "lastDate": "2025-11-15T23:59:59.000Z",
+    "status": "active",
+    "reminderSent": false
+  },
+  {
+    "id": "5",
+    "title": "DevOps Engineer",
+    "description": "We are hiring a DevOps Engineer to manage cloud infrastructure and CI/CD pipelines.",
+    "requirements": "4+ years of experience in DevOps\nFamiliarity with AWS, Docker, Kubernetes, and Jenkins",
+    "location": "Remote",
+    "salary": "$110,000 - $140,000",
+    "type": "Remote",
+    "createdDate": "2024-06-12T00:00:00.000Z",
+    "lastDate": "2025-12-25T23:59:59.000Z",
+    "status": "active",
+    "reminderSent": false
+  },
+  {
+    "id": "6",
+    "title": "QA Automation Engineer",
+    "description": "Looking for a QA Automation Engineer to design and implement automated testing frameworks.",
+    "requirements": "3+ years of QA experience\nProficiency with Selenium, Cypress, or Playwright",
+    "location": "Toronto, Canada",
+    "salary": "$85,000 - $105,000",
+    "type": "Hybrid",
+    "createdDate": "2024-08-01T00:00:00.000Z",
+    "lastDate": "2025-12-10T23:59:59.000Z",
+    "status": "active",
+    "reminderSent": false
+  },
+  {
+    "id": "7",
+    "title": "Product Manager",
+    "description": "Drive product vision, strategy, and roadmap execution across multiple teams.",
+    "requirements": "5+ years of experience in product management\nStrong communication and leadership skills",
+    "location": "London, UK",
+    "salary": "£75,000 - £95,000",
+    "type": "Full-time",
+    "createdDate": "2024-09-15T00:00:00.000Z",
+    "lastDate": "2025-12-05T23:59:59.000Z",
+    "status": "active",
+    "reminderSent": false
+  },
+  {
+    "id": "8",
+    "title": "Mobile App Developer",
+    "description": "Develop high-quality mobile applications for iOS and Android platforms.",
+    "requirements": "3+ years of experience in React Native or Flutter\nStrong understanding of mobile UI/UX patterns",
+    "location": "Berlin, Germany",
+    "salary": "€80,000 - €100,000",
+    "type": "Hybrid",
+    "createdDate": "2024-10-05T00:00:00.000Z",
+    "lastDate": "2025-12-30T23:59:59.000Z",
+    "status": "active",
+    "reminderSent": false
+  },
+  {
+    "id": "9",
+    "title": "Cloud Architect",
+    "description": "Design scalable cloud solutions and guide teams in implementing best practices on AWS and Azure.",
+    "requirements": "6+ years in cloud architecture\nExperience with Terraform, AWS, Azure, and security best practices",
+    "location": "Seattle, WA",
+    "salary": "$140,000 - $170,000",
+    "type": "Full-time",
+    "createdDate": "2024-11-12T00:00:00.000Z",
+    "lastDate": "2025-11-25T23:59:59.000Z",
+    "status": "active",
+    "reminderSent": false
+  },
+  {
+    "id": "10",
+    "title": "AI/ML Engineer",
+    "description": "Work on cutting-edge machine learning models and AI-driven solutions for enterprise applications.",
+    "requirements": "5+ years of experience in ML and AI development\nProficiency in Python, TensorFlow, and data modeling",
+    "location": "Bangalore, India",
+    "salary": "₹18,00,000 - ₹25,00,000",
+    "type": "Full-time",
+    "createdDate": "2024-12-01T00:00:00.000Z",
+    "lastDate": "2025-12-31T23:59:59.000Z",
+    "status": "active",
+    "reminderSent": false
+  },
+  {
+    "id": "1762239046736",
+    "title": "AI Generalist",
+    "description": "We’re seeking an AI Generalist who possesses a broad and versatile understanding of artificial intelligence technologies, including machine learning, natural language processing, computer vision, and generative AI. The ideal candidate is a hands-on technologist who can design, build, and deploy end-to-end AI solutions — from data ingestion to model integration.\n\nYou’ll collaborate with cross-functional teams to identify opportunities where AI can drive measurable impact, prototype new ideas, and help shape the organization’s AI strategy.",
+    "requirements": "Bachelor’s or Master’s degree in Computer Science, Artificial Intelligence, Data Science, or a related field.\n\n3+ years of experience working with machine learning, deep learning, or AI systems.\n\nStrong programming skills in Python and familiarity with frameworks such as PyTorch, TensorFlow, or Hugging Face Transformers.\n\nExperience in data preprocessing, feature engineering, and model deployment (e.g., with FastAPI, Flask, or Streamlit).\n\nFamiliarity with cloud platforms (AWS, GCP, or Azure) and MLOps tools (Docker, MLflow, Kubeflow).\n\nKnowledge of prompt engineering, embedding models, and vector databases (e.g., FAISS, Pinecone).\n\nStrong understanding of machine learning concepts (supervised, unsupervised, reinforcement learning).\n\nExcellent problem-solving and analytical skills.\n\nAbility to work independently and collaboratively in a fast-paced environment.",
+    "location": "IIT Delhi, India",
+    "salary": "₹20,50,000 - ₹30,00,000",
+    "type": "Remote",
+    "createdDate": "2025-11-04T06:50:46.736Z",
+    "lastDate": "2025-11-29T23:59:59.000Z",
+    "status": "active",
+    "reminderSent": false
+  }
+  // 👉 keep the rest exactly as you shared
+];
