@@ -74,6 +74,15 @@ const Header = () => {
             className={`collapse navbar-collapse ${isMenuOpen ? "show" : ""}`}
             id="navbarNav"
           >
+            {/* Close button for mobile sidebar */}
+            <button
+              className="sidebar-close d-lg-none"
+              onClick={handleMenuToggle}
+              aria-label="Close menu"
+            >
+              ✕
+            </button>
+
             {/* Nav Links - Pushed to the right (ms-auto) */}
             <ul className="navbar-nav ms-auto align-items-center">
               {publicNavLinks.map((link) => {
