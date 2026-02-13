@@ -46,12 +46,13 @@ const Header = () => {
           <Link className="navbar-brand fw-bold" href="/">
             <div className="d-flex align-items-center">
               <Image
-  src="/joblogo.png"
-  alt="Satmanyu Jobcare Logo"
-  width={200}
-  height={150}
-  priority
-/>
+                src="/joblogo.png"
+                alt="Satmanyu Jobcare Logo"
+                width={160}
+                height={50}
+                style={{ objectFit: "contain", height: "auto" }}
+                priority
+              />
             </div>
           </Link>
 
