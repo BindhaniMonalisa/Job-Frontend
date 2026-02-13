@@ -20,7 +20,7 @@ api.interceptors.request.use((config) => {
 // ----------------------------------------------------------
 export const getJobs = async (opts = {}) => {
   try {
-    const url = opts.showExpired ? "/jobs?showExpired=true" : "/jobs";
+    const url = opts.showExpired ? "jobs?showExpired=true" : "jobs";
     const response = await api.get(url);
     return response.data;
   } catch (error) {
@@ -39,7 +39,7 @@ export const getJobs = async (opts = {}) => {
 // ----------------------------------------------------------
 export const getJobById = async (id) => {
   try {
-    const response = await api.get(`/jobs/${id}`);
+    const response = await api.get(`jobs/${id}`);
     return response.data;
   } catch (error) {
     console.error("Error fetching job by id:", error);
@@ -61,7 +61,7 @@ export const createJob = async (formData) => {
       ...formData,
       lastDate: formData.lastDate ? formData.lastDate : null,
     };
-    const response = await api.post("/admin/jobs", payload);
+    const response = await api.post("admin/jobs", payload);
 
     Swal.fire({
       icon: "success",
@@ -92,7 +92,7 @@ export const updateJob = async (jobId, formData) => {
       ...formData,
       lastDate: formData.lastDate === "" ? null : formData.lastDate,
     };
-    const response = await api.put(`/admin/jobs/${jobId}`, payload);
+    const response = await api.put(`admin/jobs/${jobId}`, payload);
 
     Swal.fire({
       icon: "success",
@@ -143,7 +143,7 @@ export const deleteJob = async (jobId) => {
     }
 
     // ✅ Proceed with deletion
-    const response = await api.delete(`/admin/jobs/${jobId}`);
+    const response = await api.delete(`admin/jobs/${jobId}`);
 
     if (response.data.success) {
       Swal.fire({

@@ -18,7 +18,7 @@ export const adminLogin = async (credentials) => {
     return response.data
   } catch (error) {
     console.error('Login error:', error)
-    
+
     // Provide more specific error messages based on response
     if (error.response) {
       throw new Error(error.response.data.message || 'Login failed')
