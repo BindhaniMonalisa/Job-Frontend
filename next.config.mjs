@@ -1,7 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   async rewrites() {
-    const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000';
+    // Falls back to production backend URL if NEXT_PUBLIC_API_URL is not set
+    const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'https://job-backend-ruby.vercel.app';
     return [
       {
         source: '/api/:path*',
