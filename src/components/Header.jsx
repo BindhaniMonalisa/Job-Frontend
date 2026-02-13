@@ -94,10 +94,6 @@ const Header = () => {
                       href={link.path}
                       onClick={() => isMenuOpen && handleMenuToggle()}
                       className="nav-link fw-semibold px-3"
-                      style={{
-                        color: active ? "#14b306" : "#09336d",
-                        transition: "color 0.2s ease-in-out",
-                      }}
                     >
                       {link.label}
                     </Link>

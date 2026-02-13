@@ -164,8 +164,8 @@ html {
     right: -100%;
     width: 250px;
     height: 100vh;
-    background-color: #A3C9E2 !important;
-    /* Light Blue Body */
+    background-color: #ffffff !important;
+    /* White Background */
     transition: right 0.3s ease-in-out;
     display: block !important;
     padding: 0 !important;
@@ -182,13 +182,13 @@ html {
   .navbar-nav {
     display: flex;
     flex-direction: column;
-    padding: 0 !important;
+    padding: 2rem 0 0 0 !important;
+    /* Added top padding for close button */
   }
 
-  /* Header part of sidebar */
+  /* Remove Header part color */
   .navbar-nav .nav-item:first-child {
-    background-color: #C5E0B4;
-    /* Light Green Header */
+    background-color: transparent;
   }
 
   .navbar-nav .nav-link {
